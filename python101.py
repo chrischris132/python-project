@@ -1,0 +1,8 @@
+myfile = open("mytextfile.txt", "rt")
+filedata = myfile.read()
+print(filedata)
+myfile.close()
+myfile = open("mytextfile.txt", "rt")
+line1 = myfile.readline()
+print("line1")
+myfile.close()
